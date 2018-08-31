@@ -1,0 +1,28 @@
+"use strict";
+
+function house(plan) {
+    // your code here
+    return 0;
+}
+
+var assert = require('assert');
+if (!global.is_checking) {
+    console.log('Example:')
+    console.log(house(`
+0000000
+##00##0
+######0
+##00##0
+#0000#0
+`))
+
+    // These "asserts" are used for self-checking and not for an auto-testing
+    assert.equal(house(`
+0000000
+##00##0
+######0
+##00##0
+#0000#0
+`))
+    console.log("Coding complete? Click 'Check' to earn cool rewards!");
+}
