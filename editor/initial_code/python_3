@@ -37,7 +37,7 @@ if __name__ == '__main__':
 0000
 ''') == 0
 
-assert house('''
+    assert house('''
 0##0
 0000
 #00#
