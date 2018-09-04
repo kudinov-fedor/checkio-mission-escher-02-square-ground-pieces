@@ -37,4 +37,10 @@ if __name__ == '__main__':
 0000
 ''') == 0
 
+assert house('''
+0##0
+0000
+#00#
+''') == 12
+
     print("Coding complete? Click 'Check' to earn cool rewards!")

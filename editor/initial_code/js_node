@@ -41,5 +41,10 @@ if (!global.is_checking) {
 0000
 `), 0)
 
+    assert.equal(house(`0##0
+0000
+#00#
+`), 12)
+
     console.log("Coding complete? Click 'Check' to earn cool rewards!");
 }
