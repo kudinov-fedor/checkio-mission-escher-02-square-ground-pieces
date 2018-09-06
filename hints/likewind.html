@@ -5,68 +5,26 @@
         I need some help to start.
     </div>
     <div class="answer">
-        For starters, you can remove the extra elements (0) and leave only the building elements, dividing them string by string. Such methods for working with strings, like
-<a href='https://docs.python.org/3.6/library/stdtypes.html#str.replace'>replace()</a> and <a href='https://docs.python.org/3.6/library/stdtypes.html#str.split'>split()</a> will help you with that.
+        For starters, you can split an input to a few lines and add them to the list to simplify the work with them. Than you should check each string in the list starting from the left end of the list and delete every string which consists of only '0'. This loop should stop when you find the first string in which '#' is.<br>
+The same work you should do to the right end of the list.
     </div>
 </div>
 
 <div class="question-answer">
     <div class="question">
-        How can I write this in Python?
+        What should I do with the list I've got?
     </div>
     <div class="answer">
-        Code will look like this:
-        <pre class="brush: python">
-plan = plan.replace('0', '')
-plan = plan.split('\n')
-        </pre>
-The first string replaces all '0' with an empty string (''), the second - separates the multiline string into separate strings, using the linefeed character '\n' as the separating element.
+You should rotate the 'array' by the 90 degrees in any direction (clockwise or counter clockwise) in such way, that all strings become a columns. After that you should do the same manipulations as you made in the previous step.
     </div>
 </div>
 
 <div class="question-answer">
     <div class="question">
-        How can I calculate the area needed to build a house?
+        How can I calculate the area of this structure?
     </div>
     <div class="answer">
-        To determine the area of the required rectangular land plot you need to multiply the longest element of the plan list (the length of the house) by the number of such elements in the list (the width of the house).  To determine the longest element use the <a href='https://docs.python.org/3/library/functions.html#max'>max() function</a>, and to determine the length of the list use the <a href='https://docs.python.org/3/library/functions.html#len'>len() function</a>.
-    </div>
-</div>
-
-<div class="question-answer">
-    <div class="question">
-        I would like to see how this will be written in Python.
-    </div>
-    <div class="answer">
-        Given the previous part of the solution, it will look like this:
-        <pre class="brush: python">
-plan = plan.replace('0','')
-plan = plan.split('\n')
-answer = len(max(plan)) * len(plan)        
-</pre>
-    </div>
-    </div>
-</div>
-
-<div class="question-answer">
-    <div class="question">
-        Some plans have strings where nothing is built at all (''). How can I get rid of them so that len(plan) returns the correct value?
-    </div>
-    <div class="answer">
-        In this case you can use the <a href='https://docs.python.org/3.6/library/stdtypes.html#str.replace'>replace() method</a>, which removes the selected element from the list.
-    </div>
-</div>
-
-<div class="question-answer">
-    <div class="question">
-        I don’t quite understand how to use this in our case.
-    </div>
-    <div class="answer">
-        You can use the while loop to remove empty elements until they are completely gone. For example:
-        <pre class="brush: python">
-while '' in plan:
-    plan.remove('')        
-</pre>
+Just multiply the 'width' and the 'height'. In this situation it will be the length of any element of the list (all of them have the same length) and the length of the list.
     </div>
 </div>
 
