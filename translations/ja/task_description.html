@@ -1,0 +1,66 @@
+<!-- Describe task in general -->
+
+<img class="for_info_only half" src="{{MEDIA}}ground.png" style="float:left;max-height: 400px">
+
+<div class="story for_info_only">
+島へは長い旅だったのであなたは船長室で既に見つけた宝を整理することにしました。一方で遠征の数週間前に数人の大富豪と交渉しハイパーキューブが大体いくらで売れるか知っていました。<br>
+<br>
+絵に描いたような土地を買うことはあなたが長い間抱いてきた希望でした。
+そこに家を建て希少種の生き物を飼うことを夢見ていました。
+それらには大量のお金が必要ですが近い将来実現しそうです。
+</div>
+
+<p>
+'0'と'#'からなる複数行の文字列が入力データです。
+'0'は空地、'#'は家の一部をあらわします。
+あなたの仕事はその家を建てるのに最低限必要な長方形の土地の面積を計算することです。
+</p>
+
+<!-- Explain input and output values -->
+<p>
+    <strong>入力: </strong> 家の図面
+</p>
+
+<p>
+    <strong>出力: </strong> 長方形の土地の総面積
+</p>
+
+
+<!-- Put some usage examples -->
+<div class="for_info_only">
+<p>
+<strong>Example:</strong>
+</p>
+{% if interpreter.slug == "js-node" %}
+<pre class="brush: javascript">house(`
+0000000
+##00##0
+######0
+##00##0
+#0000#0
+`) == 24
+</pre>
+{% else %}
+<pre class="brush: python">house('''
+0000000
+##00##0
+######0
+##00##0
+#0000#0
+''') == 24
+</pre>
+{% endif %}
+</div>
+
+<!-- Here you can explain how it can be used in development and what is usage of this. -->
+<!-- The section is optional -->
+<p class="for_info_only">
+    <strong>どのように使われるか: </strong>
+    合理的な資源の使い方を計測できます
+</p>
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<p><strong>Precondition</strong>:<br>
+    2x2 <= multiline string <= 10x10
+</p>
