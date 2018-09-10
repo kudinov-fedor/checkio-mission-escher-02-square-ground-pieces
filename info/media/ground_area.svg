@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   id="svg2"
+   viewBox="0 0 1275.5905 708.66143"
+   height="200mm"
+   width="360mm">
+  <defs
+     id="defs4">
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mstart"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         style="fill:#f0801a;fill-opacity:1;fill-rule:evenodd;stroke:#f0801a;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4200" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:#f0801a;fill-opacity:1;fill-rule:evenodd;stroke:#f0801a;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4194" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <rect
+     style="fill:#c9ebfb;fill-opacity:1;stroke:none;stroke-width:18.2091732;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+     id="rect7624"
+     width="1427.5278"
+     height="806.64642"
+     x="-42.804672"
+     y="-34.916092" />
+  <g
+     transform="translate(-211.911,324.32405)"
+     id="layer1">
+    <text
+       id="text4136"
+       y="-45.170902"
+       x="291.05307"
+       style="font-style:normal;font-weight:normal;font-size:125px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#294270;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#294270;fill-opacity:1"
+         y="-45.170902"
+         x="291.05307"
+         id="tspan4138">0<tspan
+   id="tspan10052"
+   style="fill:#f0801a;fill-opacity:1">#00000##</tspan>0</tspan></text>
+    <text
+       id="text4144-2"
+       y="-214.40144"
+       x="404.06631"
+       style="font-style:normal;font-weight:normal;font-size:100px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#294270;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';fill:#294270;fill-opacity:1"
+         y="-214.40144"
+         x="404.06631"
+         id="tspan4146-1">width = 8</tspan></text>
+    <text
+       id="text4144-2-7"
+       y="-1.1693385"
+       x="1011.8588"
+       style="font-style:normal;font-weight:normal;font-size:100px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#294270;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';fill:#294270;fill-opacity:1"
+         y="-1.1693385"
+         x="1011.8588"
+         id="tspan4146-1-8">height = 2</tspan></text>
+    <path
+       id="path5210"
+       d="m 929.24666,-126.59744 c 65.68932,0 64.37545,0 64.37545,0 l 0,177.712187 -68.31681,0"
+       style="fill:none;fill-rule:evenodd;stroke:#f0801a;stroke-width:7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       id="text4136-1"
+       y="-105.83698"
+       x="290.23779"
+       style="font-style:normal;font-weight:normal;font-size:125px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#294270;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#294270;fill-opacity:1"
+         id="tspan4140-0"
+         y="50.412987"
+         x="290.23779">0<tspan
+   id="tspan10054"
+   style="fill:#f0801a;fill-opacity:1">########</tspan>0</tspan></text>
+    <text
+       id="text4136-6"
+       y="-163.4393"
+       x="290.42999"
+       style="font-style:normal;font-weight:normal;font-size:125px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#294270;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#294270;fill-opacity:1"
+         id="tspan4142-6"
+         y="149.06062"
+         x="290.42999">0000000000</tspan></text>
+    <path
+       id="path5210-8"
+       d="m 358.76069,-135.2133 c 0,-62.66208 0,-61.40877 0,-61.40877 l 497.55209,0 0,65.1685"
+       style="fill:none;fill-rule:evenodd;stroke:#f0801a;stroke-width:6.64169264;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       id="text4144-2-7-0"
+       y="327.83194"
+       x="255.00618"
+       style="font-style:normal;font-weight:normal;font-size:100px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#294270;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';fill:#294270;fill-opacity:1"
+         y="327.83194"
+         x="255.00618"
+         id="tspan4146-1-8-2">area = 8*2 = 16</tspan></text>
+  </g>
+</svg>
