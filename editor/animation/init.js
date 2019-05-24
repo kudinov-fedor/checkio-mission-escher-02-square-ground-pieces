@@ -64,12 +64,15 @@ requirejs(['ext_editor_io', 'jquery_190', 'raphael_210'],
             }
 
             // draw frame
-            const f = paper.rect(
-                SIZE*(result[0][1])+os,
-                SIZE*(result[0][0])+os,
-                SIZE*(result[1][1]-result[0][1]+1),
-                SIZE*(result[1][0]-result[0][0]+1)).attr(attr.rect.frame);
-            f.animate({'stroke-width': 3}, 509);
+            if (result !== 0) {
+                const f = paper.rect(
+                    SIZE*(result[0][1])+os,
+                    SIZE*(result[0][0])+os,
+                    SIZE*(result[1][1]-result[0][1]+1),
+                    SIZE*(result[1][0]-result[0][0]+1)).attr(
+                        attr.rect.frame)
+                f.animate({'stroke-width': 3}, 509)
+            }
         }
 
         var $tryit;
