@@ -1,0 +1,66 @@
+<!-- Describe task in general -->
+
+<img class="for_info_only half" src="{{MEDIA}}ground.jpg" style="float:left;max-height: 400px">
+
+<div class="story for_info_only">
+Острів був не близько, тому ви вирішили скоротати час сидячи в капітанській каюті та розподілюючи ще не знайдені скарби. Крім того, за пару тижнів до відправлення в експедицію ви встигли провести перемовини з декількома досить таки поважними особами і приблизно знали, скільки зможете отримати, продавши їм Гіперкуб.<br>
+<br>
+Одним з ваших давніх бажань було придбання землі у живописній місцині, де ви могли би побудувати будинок і розводити тварин різних видів, та це потребує досить таки не малих грошей, які, скоріш за все, зʼявляться у вас найближчим часом.
+</div>
+
+<p>
+У якості вхідних данних ваша функція отримаю багаторядковий рядок, що складається з '0' та '#', де '0' означає пусті ділянки землі, а '#' - частина вашого будинку. Ваша задача - визначити площу прямокутної ділянки землі, яка вам потрібна для побудови будинку.
+</p>
+
+<div class="for_info_only" style="text-align: center">
+    <img src="{{MEDIA}}ground_area.jpg" style="max-height: 150px">
+</div>
+
+<!-- Explain input and output values -->
+<p>
+    <strong>Вхідні дані: </strong> План будинку.
+</p>
+
+<p>
+    <strong>Вихідні дані: </strong> Розмір прямокутної ділянки для будівництва.
+</p>
+
+
+<!-- Put some usage examples -->
+<div class="for_info_only">
+<p>
+<strong>Приклад:</strong>
+</p>
+{% if interpreter.slug == "js-node" %}
+<pre class="brush: javascript">house(`
+0000000
+##00##0
+######0
+##00##0
+#0000#0
+`) == 24
+</pre>
+{% else %}
+<pre class="brush: python">house('''
+0000000
+##00##0
+######0
+##00##0
+#0000#0
+''') == 24
+</pre>
+{% endif %}
+</div>
+
+<!-- Here you can explain how it can be used in development and what is usage of this. -->
+<!-- The section is optional -->
+<p class="for_info_only">
+    <strong>Як це використовувати: </strong>
+    Для раціонального використання ресурсів.
+</p>
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<p><strong>Передумова</strong>:<br>
+    2x2 <= розмір рядка <= 10x10
+</p>
